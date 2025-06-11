@@ -59,16 +59,19 @@ npm install -g @vue/cli
 10. 选择一个文件夹来存放项目。VSCode 会自动生成并打开项目。  
 
 **项目结构**:  
+```
 legit-backend/
 ├── src/main/java/com/example/legitbackend/
-│ ├── dto/
-│ │ └── LoginRequest.java // DTO: 数据传输对象
-│ ├── controller/
-│ │ └── AuthController.java // 控制器
-│ └── LegitBackendApplication.java
+│   ├── dto/
+│   │   └── LoginRequest.java         // DTO: 数据传输对象
+│   ├── controller/
+│   │   └── AuthController.java       // 控制器
+│   └── LegitBackendApplication.java
 ├── src/main/resources/
-│ └── application.properties
+│   └── application.properties
 └── pom.xml
+```
+
 
 
 
